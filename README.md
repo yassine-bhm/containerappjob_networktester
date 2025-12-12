@@ -1,4 +1,4 @@
-# IMAP Connectivity Test - Container App Job
+# Server Connectivity Test - Container App Job
 
 This project is a .NET 8 console application that tests network connectivity to any server. It's designed to run as an Azure Container Apps Job for manual execution.
 
@@ -22,7 +22,7 @@ dotnet run
 
 ## Expected Output:
 
-=== IMAP Connectivity Test to imap.gmail.com ===
+=== Server Connectivity Test to imap.gmail.com ===
 Starting test at: 2025-12-12 10:30:00 UTC
 
 📡 Testing connectivity to: imap.gmail.com:993
@@ -46,9 +46,9 @@ Step 3: SSL/TLS Handshake
    Cipher Algorithm: Aes256 (256 bits)
    ...
 
-Step 4: Reading IMAP Server Greeting
-✅ Received IMAP greeting (XXms, XX bytes)
-   Response: * OK Gimap ready...
+Step 4: Reading  Server Greeting
+✅ Received Server  greeting (XXms, XX bytes)
+   Response: * OK Server ready...
 
 === Test Summary ===
 ✅ All connectivity tests passed!
